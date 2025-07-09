@@ -151,23 +151,23 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 180px;
+    max-width: 250px;
     flex-shrink: 0;
     margin: 0 auto;
 }
 
 .profile-photo {
-    width: 160px;
-    height: 160px;
+    width: 220px;
+    height: 220px;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid rgba(93, 78, 117, 0.2);
-    box-shadow: 0 10px 25px rgba(93, 78, 117, 0.3);
+    border: 4px solid rgba(93, 78, 117, 0.2);
+    box-shadow: 0 12px 30px rgba(93, 78, 117, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     background: linear-gradient(135deg, #D4A5A5 0%, #B8878A 50%, #5D4E75 100%);
-    padding: 3px;
-    max-width: 160px;
-    max-height: 160px;
+    padding: 4px;
+    max-width: 220px;
+    max-height: 220px;
 }
 
 .profile-photo:hover {
@@ -783,10 +783,10 @@ footer {
     }
     
     .profile-photo {
-        width: 130px;
-        height: 130px;
-        max-width: 130px;
-        max-height: 130px;
+        width: 180px;
+        height: 180px;
+        max-width: 180px;
+        max-height: 180px;
     }
     
     .project-grid {
