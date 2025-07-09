@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Asset Management System - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .system-demo {
+            background: #f8fafc;
+            padding: 60px 0;
+        }
+        
+        .metadata-example {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .code-block {
+            background: #1e293b;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+        
+        .workflow-step {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin: 30px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .step-icon {
+            background: #8B5CF6;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+        
+        .tag-example {
+            display: inline-block;
+            background: #e0e7ff;
+            color: #5b21b6;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin: 2px;
+        }
+        
+        .ai-ready-badge {
+            background: linear-gradient(45deg, #10b981, #06b6d4);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            display: inline-block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Portfolio</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#systems" class="nav-link">Systems</a>
+                </li>
+                <li class="nav-item">
+                    <a href="student-success-series.html" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="project-hero">
+        <div class="container">
+            <a href="index.html#systems" class="back-link">← Back to Systems</a>
+            <h1>Digital Asset Management System</h1>
+            <p class="hero-subtitle">AI-ready metadata framework for scalable content organization</p>
+            <div class="ai-ready-badge">🤖 AI Integration Ready</div>
+        </div>
+    </section>
+
+    <section class="system-demo">
+        <div class="container">
+            <h2 class="section-title">System Architecture</h2>
+            
+            <div class="workflow-step">
+                <div class="step-icon">1</div>
+                <div>
+                    <h3>Content Intake</h3>
+                    <p>Standardized workflow for receiving and cataloging new assets from multiple sources (photographers, videographers, student submissions)</p>
+                </div>
+            </div>
+            
+            <div class="workflow-step">
+                <div class="step-icon">2</div>
+                <div>
+                    <h3>Automated Tagging</h3>
+                    <p>Template-based metadata assignment with customizable fields for context, permissions, and usage rights</p>
+                </div>
+            </div>
+            
+            <div class="workflow-step">
+                <div class="step-icon">3</div>
+                <div>
+                    <h3>Quality Control</h3>
+                    <p>Review and validation process ensuring accuracy and completeness of metadata before final approval</p>
+                </div>
+            </div>
+            
+            <div class="workflow-step">
+                <div class="step-icon">4</div>
+                <div>
+                    <h3>Distribution & Access</h3>
+                    <p>Controlled access system allowing different user groups to find and use approved content based on permissions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Metadata Framework</h2>
+            <p class="section-subtitle">Comprehensive tagging system designed for current needs and future AI integration</p>
+            
+            <div class="metadata-example">
+                <h3>Example Asset Record</h3>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px;">
+                    <div>
+                        <h4 style="color: #8B5CF6; margin-bottom: 15px;">Basic Information</h4>
+                        <p><strong>File Name:</strong> student_maria_engineering_lab_001.jpg</p>
+                        <p><strong>Date Created:</strong> 2024-03-15</p>
+                        <p><strong>Location:</strong> ASU Tempe - Engineering Lab B</p>
+                        <p><strong>Photographer:</strong> John Smith</p>
+                        <p><strong>Model Release:</strong> ✓ On File</p>
+                    </div>
+                    <div>
+                        <h4 style="color: #8B5CF6; margin-bottom: 15px;">Content Tags</h4>
+                        <div>
+                            <span class="tag-example">engineering</span>
+                            <span class="tag-example">female-student</span>
+                            <span class="tag-example">laboratory</span>
+                            <span class="tag-example">hands-on-learning</span>
+                            <span class="tag-example">diversity</span>
+                            <span class="tag-example">STEM</span>
+                            <span class="tag-example">collaborative-work</span>
+                            <span class="tag-example">modern-equipment</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 30px;">
+                    <h4 style="color: #8B5CF6; margin-bottom: 15px;">AI-Ready Description</h4>
+                    <div class="code-block">
+"scene_description": "Female engineering student Maria Rodriguez working with modern laboratory equipment in ASU's state-of-the-art engineering facility. The image captures authentic moment of hands-on learning, showcasing diversity in STEM education and collaborative research environment.",
+
+"emotional_tone": "focused, determined, engaged",
+"visual_elements": ["modern lab equipment", "safety equipment", "collaborative workspace", "natural lighting"],
+"story_context": "Part of Student Success Series highlighting first-generation college student achieving in engineering program",
+"usage_permissions": ["recruitment_materials", "social_media", "website_hero", "print_brochures"],
+"demographic_representation": ["hispanic_latina", "first_generation", "female_in_stem"],
+"campaign_alignment": ["diversity_and_inclusion", "academic_excellence", "hands_on_learning"]
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title">System Benefits & Outcomes</h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+                <div class="system-card">
+                    <h3>Efficiency Gains</h3>
+                    <ul style="color: #666; line-height: 1.8;">
+                        <li>75% reduction in content search time</li>
+                        <li>90% faster approval workflows</li>
+                        <li>Automated rights management</li>
+                        <li>Cross-platform content reuse</li>
+                    </ul>
+                </div>
+                
+                <div class="system-card">
+                    <h3>Quality Improvements</h3>
+                    <ul style="color: #666; line-height: 1.8;">
+                        <li>100% model release compliance</li>
+                        <li>Consistent metadata standards</li>
+                        <li>Reduced content duplication</li>
+                        <li>Enhanced searchability</li>
+                    </ul>
+                </div>
+                
+                <div class="system-card">
+                    <h3>Future-Proofing</h3>
+                    <ul style="color: #666; line-height: 1.8;">
+                        <li>AI/ML integration ready</li>
+                        <li>Scalable architecture</li>
+                        <li>API-enabled access</li>
+                        <li>Advanced analytics potential</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="metadata-example" style="margin-top: 60px;">
+                <h3>Technical Implementation</h3>
+                <p style="color: #666; margin-bottom: 20px;">
+                    Built using a combination of existing digital asset management tools and custom metadata frameworks:
+                </p>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+                    <div>
+                        <h4 style="color: #059669;">Asset Storage</h4>
+                        <p style="color: #666; font-size: 0.9rem;">Cloud-based repository with automated backup and version control</p>
+                    </div>
+                    <div>
+                        <h4 style="color: #059669;">Metadata Database</h4>
+                        <p style="color: #666; font-size: 0.9rem;">Structured data storage with API endpoints for integration</p>
+                    </div>
+                    <div>
+                        <h4 style="color: #059669;">Access Control</h4>
+                        <p style="color: #666; font-size: 0.9rem;">Role-based permissions ensuring appropriate content usage</p>
+                    </div>
+                    <div>
+                        <h4 style="color: #059669;">Analytics Dashboard</h4>
+                        <p style="color: #666; font-size: 0.9rem;">Usage tracking and performance metrics for continuous improvement</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container" style="text-align: center;">
+            <h2>Systematic Thinking in Action</h2>
+            <p style="font-size: 1.1rem; color: #666; margin-bottom: 40px;">
+                This asset management system demonstrates the strategic, systematic approach I bring to content production challenges.
+            </p>
+            <a href="index.html#contact" class="cta-button">Discuss Your Content Systems</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 - Experiential Content Producer Portfolio</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
